@@ -15,9 +15,6 @@ jobs:
       - name: Run extract.py
         run: python .github/workflows/extract.py
 
-      - name: Run extract.py
-        run: python extract.py
-
   transform-job:
     runs-on: ubuntu-latest
     needs: extract-job
