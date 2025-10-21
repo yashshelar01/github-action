@@ -3,7 +3,7 @@ name: github action demo pipeline
 on: 
     push:
           branches:
-              - main
+              - 0101
 
 jobs:
     demo-jobs:
