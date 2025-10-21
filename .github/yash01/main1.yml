@@ -3,7 +3,7 @@ name: github action demo pipeline
 on: 
     push:
           branches:
-              - main
+              - main1
 
 jobs:
     demo-jobs:
@@ -12,6 +12,6 @@ jobs:
         steps:
             - name: checkout code
               uses: actions/checkout@v2
-              
+
             - name: print message
               runs: echo "welcome to github actions"
